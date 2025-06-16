@@ -1,0 +1,22 @@
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    backgroud-color: red;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .col-20 {
+    width: 20%;
+    height: 80px;
+  }
+
+  .col-60 {
+    width: 60%;
+    height: 80px;
+  }
