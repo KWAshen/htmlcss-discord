@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
 
-  .container {
+  .barra {
     max-width: 100%;
     margin: 0 auto;
     display: flex;
@@ -32,19 +32,45 @@
     justify-content: space-around;
     align-items: center;
   }
-  .cerchio{
+
+  .cerchio {
     background-color: white;
     color: black;
     padding: 10px;
     border-radius: 1rem;
   }
 
-  img { 
+  img {
     width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
-  .livelli {
+  /* .jumbo {
     max-width: 100%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; */
+
+  .container-due{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+  }
+
+  .my-40{
+    width: 40%;
+
+  }
+    
+  .my-60{
+    width: 60%;
+  }
+
+.container-tre{
+  background-color: #F6F6F6 ;
+}
+
+  .my-60terzo{
+    width: 60%;
+    justify-content: flex-end;
